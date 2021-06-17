@@ -5,7 +5,7 @@ public class isPrime {
     }
 
     public static void issPrime(int number){
-           int x = (((number*2)+number)+1);
+           int x = (((number*number)+number + 41));
            if(x%2 != 0){
                System.out.println("It is prime");
            }else{
